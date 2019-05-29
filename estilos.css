@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan');
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ 
+body {
+	background: #C71F1F;
+	font-family: 'Baloo Chettan', cursive;
+	font-size: 16px;
+}
+ 
+.titulo{
+	font-family: 'Baloo Chettan', cursive;
+	font-size: 50px;
+	text-align: center;
+}
+
+.wrap {
+	margin: auto;
+	max-width: 800px;
+	width: 90%;
+}
+ 
+.formulario {
+	color: #212121;
+	text-align: center;
+}
+ 
+.principal .formulario input[type=text] {
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
+}
+ 
+.principal .formulario input[type=text].error {
+	border: 5px solid;
+	color: red;
+}
+ 
+.boton {
+	background-color: black;
+	border: 1px solid white;
+	color: white;
+	display: inline-block;
+	font-size: 16px;
+	padding: 15px;
+}
+ 
+.boton:hover {
+	border: 1px solid #fff;
+}
+ 
+.tareas .lista li a {
+	color: #212121;
+	display: block;
+	padding: 20px 0;
+	text-decoration: none;
+}
+ 
+.tareas .lista li a:hover {
+	text-decoration: line-through;
+}
